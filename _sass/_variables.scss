@@ -1,14 +1,30 @@
 $jumbotron-height: 600px;
 $parallax-height: 400px;
+$light-gray: #F2F2F2;
+$dark-gray: #4d4d4d;
+$diff-color: rgb(250, 246, 236);
 
 .vertical-align {
     /*     display: flex; */
     align-items: center;
 }
-html, body {
-    position: relative;
-    min-height: 100%;
-    min-width: 100%;
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+html {
+	//position: relative;
+    height: 100%;
+    width: 100%;
+    //min-height: 100%;
+    //min-width: 100%;
+}
+body {
+	position: relative;
+    width: 100%;
+	min-height: 100%;
+    //min-width: 100%;
 }
 /* Link style: want links to be same as surrounding text until cursor hovers over link */
 a {
@@ -38,7 +54,10 @@ p {
     z-index: -1;
 }
 .bg2 {
-	background: url('/assets/icecube.jpg') no-repeat center center;
+	//transform: translateY(-50%);
+	background: url('/assets/IMG_6308_2.png') no-repeat center center;
+
+	//background: url('/assets/icecube.jpg') no-repeat center center;
 	background-attachment: fixed;
 	//position: fixed;
     width: 100%;
@@ -58,7 +77,7 @@ p {
 		//font-style: italic;
 		font-weight: 100;
 		font-size: 70px;
-		color: #F2F2F2;
+		color: $light-gray;
 	}
 }
 .bg3 {
@@ -81,11 +100,11 @@ p {
 		font-family: 'Roboto Mono', sans-serif;
 		font-weight: 100;
 		font-size: 70px;
-		color: #F2F2F2;
+		color: $light-gray;
 	}
 }
 .jumbotron {
-	margin: 0; 
+	margin: 0;
 	padding: 0;
     height: $jumbotron-height;
     color: white;
@@ -131,8 +150,11 @@ p {
 .white-background {
     background-color: white;
 }
-.black-background {
-    background: transparent;
+.gray-background {
+    background-color: $light-gray;
+}
+.diff-background {
+    background-color: $diff-color;
 }
 .page_title {
     font-family: 'Roboto', sans-serif;
@@ -156,13 +178,33 @@ p {
 #research-section {
 	padding-top: 50px;
 }
+#CV-section {
+    // background: $light-gray no-repeat center center;
+}
+#resume-header {
+    color: rgb(81, 145, 116);
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+}
+.text-right h1 { margin: 0; }
 .vertical-line {
     border-style: solid;
     border-width: 2px;
     -webkit-border-image: -webkit-gradient(linear, left top, left bottom, from(transparent), to(transparent), color-stop(50%, white))0 100% 0 0 stretch;
 }
 .sexy_line {
-    //margin: 25px 0;
+    height: 1px;
+    background: black;
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(white), to(white), color-stop(50%, black));
+}
+.sexy_line_top {
+    margin-bottom: 30px;
+    height: 1px;
+    background: black;
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(white), to(white), color-stop(50%, black));
+}
+.sexy_line_bottom {
+    margin-top: 30px;
     height: 1px;
     background: black;
     background: -webkit-gradient(linear, 0 0, 100% 0, from(white), to(white), color-stop(50%, black));
@@ -170,30 +212,47 @@ p {
 footer {
 	font-family: 'Roboto', sans-serif;
     font-weight: 300;
-    background-color: #F2F2F2;
+    background-color: $light-gray;
     height: 60px;
+	//position:absolute;
+	//right: 0;
+	//bottom: 0;
+	//left: 0;
 }
 .footer-padding {
     margin-top: 20px;
 }
-.active-button, .active-button:hover {
+// .active-button {
+//     border-style: solid;
+//     border-width: 1px;
+//     background-color: rgb(81, 145, 116);
+//     border-color: rgba(81, 145, 116, 0.3);
+// }
+.btn {
+	font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
     border-style: solid;
     border-width: 1px;
-    border-color: rgb(81, 145, 116);
-    background-color: rgba(81, 145, 116, 0.3);
+    border-radius: 2px;
+    border-color: gray;
 }
-.active-button {
-    background-color: rgba(81, 145, 116, 0.3);
+.btn-default:focus {
+    background-color: white;
+    border-color: default;
 }
-button {
-    border-radius: 2px !important;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
+.btn-success, .btn-success:hover, .btn-success:focus, .btn-success:focus:active, .btn-success:active {
+    color: black;
+    background-color: rgba(81, 145, 116, 0.3);
+    border-color: gray;
+}
+.btn:focus {
+    outline: none;
 }
 .pdf-button {
-    border-radius: 2px !important;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
+    // border-radius: 2px !important;
+    // // font-family: 'Roboto', sans-serif;
+    // // font-weight: 300;
 }
 .top-padding {
     padding-top: 60px;
@@ -203,6 +262,26 @@ button {
 }
 .bottom-row {
 	padding-bottom: 60px;
+}
+.post-list {
+	text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+	color: $dark-gray;
+	list-style-type: none;
+}
+.circle-div {
+	// display: inline;
+	// display: inline-block;
+	overflow: hidden;
+	// position: relative;
+	margin: 0 auto;
+	/*margin-top: 25%;*/
+    border-radius: 50%;
+	width: 200px;
+	height: 200px;
+    border: 1px solid rgb(239, 67, 39);
 }
 
 @import "bootstrap/variables";
