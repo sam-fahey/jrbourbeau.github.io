@@ -8,12 +8,13 @@
 # Site settings
 title: James Bourbeau
 email: jbourbeau@wisc.edu
-description: > # this means to ignore newlines until "baseurl:"i
+description: > # this means to ignore newlines until "baseurl:"
   Description goes here!
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
+url: "http://jamesbourbeau.com" # the base hostname & protocol for your site
+twitter_username: bourbeaujames
 github_username:  jrbourbeau
 
 # Build settings
 markdown: kramdown
+highlighter: pygments

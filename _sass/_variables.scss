@@ -28,15 +28,28 @@ body {
 }
 /* Link style: want links to be same as surrounding text until cursor hovers over link */
 a {
+    // font-style: italic;
     text-decoration: none;
+    // text-decoration: none;
     color: inherit;
 }
 a:hover {
 	text-decoration: underline;
 	color: inherit;
 }
+.underlined{
+	text-decoration: underline;
+}
 p {
 	//font-family: 'Roboto', sans-serif;
+	// font-family: 'Noto Sans', sans-serif;
+    // font-weight: 400;
+	font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: $dark-gray;
+}
+#resume-section li {
 	font-family: 'Lato', sans-serif;
     font-weight: 300;
     font-size: 18px;
@@ -73,9 +86,10 @@ p {
 		text-align: center;
 		vertical-align: middle;
 		line-height: $parallax-height;       /* the same as your div height */
-		font-family: 'Roboto Mono', sans-serif;
+		font-family: 'Roboto', sans-serif;
+		// font-family: 'Noto Sans', sans-serif;
 		//font-style: italic;
-		font-weight: 100;
+		font-weight: 400;
 		font-size: 70px;
 		color: $light-gray;
 	}
@@ -103,13 +117,64 @@ p {
 		color: $light-gray;
 	}
 }
+.jumbotron-post {
+	margin: 0;
+	padding: 0;
+    height: 100px;
+    color: white;
+	background: transparent;
+	h1 {
+    	transform: translateY(60%);
+		font-family: 'Roboto', sans-serif;
+		font-weight: 400;
+		// position: relative;
+		// text-align: right;
+		font-size: 40px;
+		color: white;
+        text-shadow: #444 0 1px 1px;
+		margin: 0px;
+	}
+
+	p {
+    	transform: translateY(60%);
+		font-family: 'Lato', sans-serif;
+		//font-family: 'Roboto', sans-serif;
+		font-weight: 300;
+		// position: relative;
+		// text-align: left;
+		color: white;
+	}
+}
 .jumbotron {
 	margin: 0;
 	padding: 0;
     height: $jumbotron-height;
     color: white;
-    text-shadow: #444 0 1px 1px;
 	background: transparent;
+    .row {
+        transform: translateY(90%);
+    }
+	h1 {
+    	// transform: translateY(60%);
+		font-family: 'Roboto', sans-serif;
+		font-weight: 400;
+		// position: relative;
+		// text-align: right;
+		font-size: 40px;
+		color: white;
+        text-shadow: #444 0 1px 1px;
+		margin: 0px;
+	}
+
+	p {
+    	// transform: translateY(60%);
+		font-family: 'Lato', sans-serif;
+		//font-family: 'Roboto', sans-serif;
+		font-weight: 300;
+		// position: relative;
+		// text-align: left;
+		color: white;
+	}
 }
 .jumbotron-text {
 	position: relative;
@@ -143,6 +208,7 @@ p {
 }
 .jumbotron-right {
     display: inline-block;
+	// padding: 50% 0px 0px 15px;
 	padding: 35px 0px 0px 15px;
 }
 .white-background {
@@ -188,10 +254,14 @@ p {
 	font-weight: 300;
     color: rgb(81, 145, 116);
 }
+lead{
+    color: black;
+}
 .text-right h1 { margin: 0; }
 .vertical-line {
     border-style: solid;
-    border-width: 2px;
+    border-width: 1px;
+    // border-width: 2px;
     -webkit-border-image: -webkit-gradient(linear, left top, left bottom, from(transparent), to(transparent), color-stop(50%, white))0 100% 0 0 stretch;
 }
 .sexy_line {
@@ -216,7 +286,11 @@ footer {
     font-weight: 300;
     background-color: $light-gray;
     height: 60px;
-	//position:absolute;
+	position:absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    overflow:hidden;
 	//right: 0;
 	//bottom: 0;
 	//left: 0;
@@ -285,8 +359,8 @@ footer {
 	height: 200px;
     border: 1px solid rgb(239, 67, 39);
 }
-@media (max-width: 480px) { 
-//@media (max-width: @screen-xs-max) { 
+@media (max-width: 480px) {
+//@media (max-width: @screen-xs-max) {
 	.vertical-line {
 		border-width: 0px;
 	}

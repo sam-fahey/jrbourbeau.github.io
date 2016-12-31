@@ -6,19 +6,19 @@ layout: custom
 
 	<div class="bg">
 		<div class="jumbotron">
-			<div class="row vertical-align">
-				<div class="container jumbotron-text">
-					<div class="vertical-line jumbotron-left">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-4 text-right vcenter vertical-line">
 						<h1>James Bourbeau</h1>
-						<p style="font-size:20px; margin: 0;text-align:right">Wisconsin Physics Ph.D. student</p>
-					</div>
-					<div class="jumbotron-right">
-						<p style="font-size:18px;">
+							<p>Data stuff</p>
+					</div><!--
+		            --><div class="col-sm-8 text-left vcenter">
+						<p>
 							<a href="https://github.com/jrbourbeau" target="_blank" style="text-decoration: none;">
-								<img class="github" style="vertical-align:middle; padding-right: 10px;" width="50px;" src="{{ site.baseurl }}/assets/GitHub-Mark-Light-120px-plus.png" alt="GitHub mark" />
+								<img class="github" style="" width="35px;" src="{{ site.baseurl }}/assets/GitHub-Mark-Light-120px-plus.png" alt="GitHub mark" />
 							</a>
 							<a href="https://www.linkedin.com/in/james-bourbeau-848353108" target="_blank" style="text-decoration: none;">
-								<img class="github" style="vertical-align:middle; padding-right: 10px;" width="50px;" src="{{ site.baseurl }}/assets/In-White-128px-R.png" alt="LinkedIn logo" />
+								<img class="github" style="" width="35px;" src="{{ site.baseurl }}/assets/In-White-128px-R.png" alt="LinkedIn logo" />
 							</a>
 						</p>
 					</div>
@@ -27,23 +27,21 @@ layout: custom
 		</div>
 	</div>
 
-	<!--<div class="sexy_line"></div>-->
-	<div class="container-fluid white-background" id="about-section" style="padding-top: 52px;">
-        <div class="row vertical-align bottom-padding">
+	<div class="container-fluid white-background" id="about-section" style="padding-top: 0px;">
+        <div class="row vertical-align">
             <div class="col-sm-1">
             </div>
-            <div class="col-md-4 col-lg-3 hidden-sm hidden-xs">
-				<img class="img-responsive scroll-fade" id="picture" width="80%" src="{{ site.baseurl }}/assets/james_square2.png">
+            <div class="col-md-4 col-lg-3 hidden-sm hidden-xs vcenter">
+				<img class="img-responsive" id="picture" width="80%" src="{{ site.baseurl }}/assets/james_square2.png">
             </div>
-            <div class="col-sm-10 col-md-6 col-lg-7 scroll-fade" id="about-me">
-                <h3 style="font-family: 'Roboto', sans-serif;">About me</h3>
+            <div class="col-sm-10 col-md-6 col-lg-7 vcenter" id="about-me">
                 <p>
-                    <lead>Currently, I'm a physics PhD student at the University of Wisconsin-Madison.</lead> My research centers around studying cosmic-rays at the IceCube Neutrino Observatory. Specifically, I'm studying the cosmic-ray arrival direction anisotropy.
+                    <lead>I'm a graduate student at the University of Wisconsin-Madison.</lead> My work centers around studying cosmic rays using the IceCube Neutrino Observatory.
                     <br>
-                    <br> I received my bachelor's degree in physics from the University of Texas at Arlington in 2013. While at UTA I worked with
+                    <!-- <br> I received my bachelor's degree in physics from the University of Texas at Arlington in 2013. While at UTA I worked with
                     <a href="http://www-hep.uta.edu/~brandta/homepage.html">Andrew Brandt</a> on developing a high precision time-of-flight detector as part of a potential upgrade to the ATLAS detector at the LHC. My work primarily focused on improving
                     and maintaining the data analysis code base of the group.
-                    <br>
+                    <br> -->
                     <br> In my free time I like being outside with friends and enjoying life in MadTown with my MadCats!
                 </p>
             </div>
@@ -59,25 +57,57 @@ layout: custom
 			</div>
     	    <div class="col-sm-6 text-center">
 				<div class="sexy_line_top"></div>
-				<h1 class="green-text" id="resume-header">Resum&eacute;</h1>
-				<button type="button" class="btn btn-default btn-lg" id="HTML-CV-button">Show Resum&eacute;</button>
-				<a href="/assets/CV-JamesBourbeau.pdf" target="_blank"><button type="button" class="btn btn-default btn-lg" id="PDF-CV-button">Open PDF</button></a>
+				<h1 class="green-text" id="resume-header">About me</h1>
+				<br>
+				<button type="button" class="btn btn-default btn-lg" id="resume-button">Show Info</button>
+				<button type="button" class="btn btn-default btn-lg" id="CV-button">Show CV</button>
+				<a href="/assets/CV-JamesBourbeau.pdf" target="_blank"><button type="button" class="btn btn-default btn-lg" id="PDF-CV-button">Open CV PDF</button></a>
 			</div>
 			<div class="col-sm-3">
 			</div>
 		</div>
 	</div>
-    <!-- <div class="container-fluid diff-background shadow">
-		<div class="row top-padding bottom-padding">
-			<div class="col-sm-5 text-right">
-				<h1 id="resume-header">Resum&eacute;</h1>
-			</div>
-    	    <div class="col-sm-4 text-left vcenter">
-				<a href="/assets/CV-JamesBourbeau.pdf" target="_blank"><button type="button" class="btn btn-default btn-lg more-button" id="PDF-CV-button">PDF</button></a>
-				<button type="button" class="btn btn-default btn-lg more-button" id="HTML-CV-button">Show Resum&eacute;</button>
-			</div>
-		</div>
-	</div> -->
+
+    <div class="container-fluid white-background top-padding" id="resume-section">
+        <!-- 			Interests -->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-2" style="padding-right:20px;">
+                </div>
+                <div class="col-sm-5">
+                    <h2> Skills </h2>
+					<ul>
+						<li> 6+ years of data analysis experience </li>
+						<li> Python programming (plus modules such as NumPy, SciPy, pandas, scikit-learn, etc.) </li>
+						<li> Machine learning techniques </li>
+						<ul>
+							<li>Feature selection</li>
+							<li>Classification and regression algorithms</li>
+							<li>Model evaluation</li>
+						</ul>
+						<li> Experience with large distributed computing systems </li>
+						<li> Data visualization </li>
+						<li> Technical communication skills </li>
+					</ul>
+                </div>
+                <div class="col-sm-4">
+					<h2>Interests</h2>
+					<ul>
+						<li> Using data to help solve problems </li>
+					</ul>
+					<br />
+                    <h2> Education </h2>
+					<ul>
+						<li> BS in Physics </li>
+						<li> Master's in Physics </li>
+						<li> PhD in Physics in progress </li>
+					</ul>
+                </div>
+                <div class="col-sm-1">
+                </div>
+            </div>
+        </div>
+    </div>
 
     <div class="container-fluid white-background top-padding bottom-padding" id="CV-section">
         <!-- 		    Education Section -->
@@ -285,7 +315,8 @@ layout: custom
         </div>
 
     </div>
-    <div class="container-fluid white-background">
+
+	<div class="container-fluid white-background">
 		<div class="row">
 			<div class="col-sm-3">
 			</div>
@@ -297,10 +328,6 @@ layout: custom
 		</div>
 	</div>
 
-	<!-- <div class="bg2">
-		<h1> Research </h1>
-	</div> -->
-	<!-- <div class="sexy_line"></div> -->
 	<div class="container-fluid white-background" id="research-section">
 			<div class="row vertical-align top-padding bottom-padding">
 				<div class="col-sm-1">
@@ -309,11 +336,15 @@ layout: custom
 				<div class="col-sm-10 col-lg-5">
 					<h3 style="font-family: 'Roboto', sans-serif;">Cosmic-ray Physics</h3>
 					<p>
-						I am a member of the IceCube collaboration, working with Stefan Westerhoff and the cosmic-ray working group. My research focuses on using data collected by the IceCube and IceTop detectors to study cosmic rays. Currently, I'm studying the cosmic-ray arrival direction anisotropy and investigating a new reconstruction method for IceTop events.
+						My research is focused on studying the cosmic-ray (CR) composition spectrum using the IceCube South Pole Neutrino Observatory. The central task is to produce an algorithm that can accurately classify different particles (e.g. protons, helium nuclei, iron nuclei, etc). More information can be found on the <a class="underlined" href="https://github.com/jrbourbeau/cr-composition" target="_blank">GitHub</a> page for this analysis.
 					</p>
+					<!-- <p>
+						Currently, my research is focused on two fronts: studying the cosmic-ray (CR) arrival direction anisotropy and developing a new CR reconstruction tool for the IceTop detector. The reconstruction tool, ShowerLLH, is a likelihood-based reconstruction algorithm that takes into account several factors like snow height, charge deposited, distance from shower core, etc. in it's reconstruction. More information on ShowerLLH can be found <a href="https://github.com/jrbourbeau/ShowerLLH_scripts" target="_blank">on GitHub</a>.
+					</p> -->
 				</div>
 				<div class="col-sm-10 col-lg-5">
-					<img class="img-responsive" width="90%" src="{{ site.baseurl }}/assets/skymap_3.png" alt="CR skymap" style="margin: 0 auto;">
+					<!-- <img class="img-responsive" width="90%" src="{{ site.baseurl }}/assets/skymap_3.png" alt="CR skymap" style="margin: 0 auto;"> -->
+					<img class="img-responsive" width="90%" src="{{ site.baseurl }}/assets/radviz.png" alt="radviz" style="margin: 0 auto;">
 				</div>
 				<div class="col-sm-1">
 				</div>
@@ -331,11 +362,9 @@ layout: custom
 						<a href="http://www.pheno.wisc.edu/">phenomenology group</a> on investigating a specific dark matter signature produced by Z' jets at the Large Hadron Collider (LHC). We, along with our collaborator Tongyan Lin, published a paper on
 						this topic in the Journal for High Energy Physics <a href="http://arxiv.org/abs/1504.01395">[arXiv:1504.01395]</a>.
 					</p>
-					<ul>
-						<li>
-							<p> Y. Bai, <b>J. Bourbeau</b>, and T. Lin. "Dark matter searches with a mono-Z' jet," <i>JHEP</i> <b>06</b>, 205 (2015). DOI: 10.1007/JHEP06 (2015) 205.</p>
-						</li>
-					</ul>
+					<blockquote>
+						<p> Y. Bai, <b>J. Bourbeau</b>, and T. Lin. "Dark matter searches with a mono-Z' jet," <i>JHEP</i> <b>06</b>, 205 (2015). DOI: 10.1007/JHEP06 (2015) 205.</p>
+					</blockquote>
 					<a class="btn btn-default pdf-button" href="/assets/monoZprime.pdf" role="button" target="_blank">PDF</a>
 				</div>
 				<div class="col-sm-1">
@@ -348,12 +377,11 @@ layout: custom
 	<div class="bg3">
 		<h1> Recent blog posts </h1>
 	</div>
-    <div class="container-fluid white-background">
+    <div class="container-fluid white-background bottom-padding">
 		<div class="row bottom-padding">
 			<div class="col-sm-2">
 			</div>
 			<div class="col-sm-8 text-left">
-				<!-- <h1 class="text-center">Blog Posts</h1> -->
 				<ul class="post-list">
 					{% for post in site.posts %}
 						<li class="top-padding">
@@ -370,23 +398,60 @@ layout: custom
 
     <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="https://d3js.org/d3.v4.js"></script>
     <script>
+        $("#resume-section").hide();
         $("#CV-section").hide();
 
-        $("#HTML-CV-button").click(function() {
+        $("#resume-button").click(function() {
+			var $this = $(this);
+			$(this).toggleClass("active-button");
+			$(this).toggleClass("btn-default");
+			$(this).toggleClass("btn-success");
+            $("#resume-section").slideToggle();
+			if($this.hasClass("active-button")){
+		        $this.text("Hide info");
+		        // $this.text("Hide Resum‌é");
+		    } else {
+		        $this.text("Show Info");
+		    }
+			if($("#CV-button").hasClass("active-button")){
+				$("#CV-button").toggleClass("active-button");
+				$("#CV-button").toggleClass("btn-default");
+				$("#CV-button").toggleClass("btn-success");
+		        $("#CV-button").text("Show CV");
+		        // $("#CV-button").text("Hide CV");
+	            $("#CV-section").slideToggle();
+		    } else {
+		        $("#CV-button").text("Show CV");
+		    }
+        });
+        $("#CV-button").click(function() {
 			var $this = $(this);
 			$(this).toggleClass("active-button");
 			$(this).toggleClass("btn-default");
 			$(this).toggleClass("btn-success");
             $("#CV-section").slideToggle();
 			if($this.hasClass("active-button")){
-		        $this.text("Hide Resum‌é");
+		        $this.text("Hide CV");
 		    } else {
-		        $this.text("Show Resum‌é");
+		        $this.text("Show CV");
+		    }
+			if($("#resume-button").hasClass("active-button")){
+				$("#resume-button").toggleClass("active-button");
+				$("#resume-button").toggleClass("btn-default");
+				$("#resume-button").toggleClass("btn-success");
+		        $("#resume-button").text("Show Info");
+		        // $("#resume-button").text("Hide resume");
+	            $("#resume-section").slideToggle();
+		    } else {
+		        $("#resume-button").text("Show Info");
 		    }
         });
+		// d3.selectAll("p").style("color", "green");
+		// d3.selectAll("p").transition()
+		//     .styleTween("color", function() { return d3.interpolate("green", "red"); });
     </script>
-	<!-- <script src="https://d3js.org/d3.v4.js"></script> -->
 
 
 </div>
