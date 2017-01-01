@@ -17,4 +17,3 @@ github_username:  jrbourbeau
 
 # Build settings
 markdown: kramdown
-highlighter: pygments
