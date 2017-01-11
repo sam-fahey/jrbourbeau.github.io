@@ -121,7 +121,8 @@ layout: custom
 			<ul class="post-list">
 				{% for post in site.posts %}
 					<li class="top-padding">
-						<h3><a class="text-center" href="{{ post.url }}">{{ post.title }}</a></h3>
+						<h3 class='post-title'><a class="text-center" href="{{ post.url }}">{{ post.title }}</a></h3>
+						<p>{{ post.date | date: "%b %-d, %Y" }}</p>
 						{{ post.excerpt }}
 					</li>
 				{% endfor %}
@@ -132,7 +133,7 @@ layout: custom
 	</div>
 </div>
 
-<a href="#" class="scrollToTop"><span class="glyphicon glyphicon-menu-up"></span><br />Scroll to top</a>
+<a href="#" class="scrollToTop"><span class="glyphicon glyphicon-menu-up"></span><br />Back to top</a>
 
 
 <!-- jQuery library -->
@@ -141,29 +142,25 @@ layout: custom
 <script>
 	// Scroll to top stuff
 	$(document).ready(function(){
-
 		//Check to see if the window is top if not then display button
 		$(window).scroll(function(){
-			if ($(this).scrollTop() > 500) {
+			if ($(this).scrollTop() > 499) {
 				$('.scrollToTop').fadeIn();
 			} else {
 				$('.scrollToTop').fadeOut();
 			}
 		});
-
 		//Click event to scroll to top
 		$('.scrollToTop').click(function(){
 			$('html, body').animate({scrollTop : 0},500);
 			return false;
 		});
-
 	});
 
 	// Scroll to link stuff
 	$(document).ready(function(){
 	  // Add smooth scrolling to all links
 	  $("a").on('click', function(event) {
-
 	    // Make sure this.hash has a value before overriding default behavior
 	    if (this.hash !== "") {
 	      // Prevent default anchor click behavior
@@ -175,7 +172,6 @@ layout: custom
 	      $('html, body').animate({
 	        scrollTop: $(hash).offset().top
 			}, 500, function(){
-
 	        // Add hash (#) to URL when done scrolling (default click behavior)
 	        window.location.hash = hash;
 	      });
@@ -183,31 +179,8 @@ layout: custom
 	  });
 	});
 
-    // $("#resume-section").hide();
-    // $("#research-section").hide();
     $("#CV-section").hide();
 
-    // $("#about-button").click(function() {
-	// 	var $this = $(this);
-	// 	$(this).toggleClass("active-button");
-	// 	$(this).toggleClass("btn-default");
-	// 	$(this).toggleClass("btn-success");
-    //     $("#resume-section").slideToggle();
-	// 	if($this.hasClass("active-button")){
-	//         $this.text("Hide info");
-	//     } else {
-	//         $this.text("Show Info");
-	//     }
-	// 	if($("#CV-button").hasClass("active-button")){
-	// 		$("#CV-button").toggleClass("active-button");
-	// 		$("#CV-button").toggleClass("btn-default");
-	// 		$("#CV-button").toggleClass("btn-success");
-	//         $("#CV-button").text("Show CV");
-    //         $("#CV-section").slideToggle();
-	//     } else {
-	//         $("#CV-button").text("Show CV");
-	//     }
-    // });
     $("#CV-button").click(function() {
 		var $this = $(this);
 		$(this).toggleClass("active-button");
