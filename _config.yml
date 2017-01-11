@@ -7,6 +7,7 @@
 
 # Site settings
 title: James Bourbeau
+author: James Bourbeau
 email: jbourbeau@wisc.edu
 description: > # this means to ignore newlines until "baseurl:"
   I'm a physics Ph.D. graduate student and data analyst with an interest in machine learning
