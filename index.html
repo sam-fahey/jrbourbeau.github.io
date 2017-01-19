@@ -7,7 +7,7 @@ layout: custom
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-4 text-right vcenter">
-					<h1>James Bourbeau</h1>
+					<h1 class='header'>James Bourbeau</h1>
 					<a href="https://github.com/jrbourbeau" target="_blank" style="text-decoration: none;">
 						<img class="github" style="" width="30px;" src="{{ site.baseurl }}/assets/GitHub-Mark-Light-120px-plus.png" alt="GitHub mark" />
 					</a>
@@ -55,28 +55,25 @@ layout: custom
             <div class="col-sm-2" style="padding-right:20px;">
             </div>
             <div class="col-sm-5">
-                <h3> Skills </h3>
+                <h3 class='header'> Skills </h3>
 				<ul>
 					<li> 6+ years of data analysis experience </li>
 					<li> Python programming (including NumPy, SciPy, pandas, scikit-learn, etc.) </li>
-					<li> Machine learning techniques </li>
-					<ul>
-						<li>Feature selection</li>
-						<li>Classification and regression algorithms</li>
-						<li>Model evaluation</li>
-					</ul>
+					<li> Machine learning experience </li>
 					<li> Experience with large distributed computing systems </li>
 					<li> Data visualization </li>
 					<li> Technical communication skills </li>
+					<li> HTML, CSS </li>
 				</ul>
             </div>
             <div class="col-sm-4">
-				<h3>Interests</h3>
+				<h3 class='header'>Interests</h3>
 				<ul>
 					<li> Using data to help solve problems </li>
+					<li> Building software </li>
 				</ul>
 				<br />
-                <h3> Education </h3>
+                <h3 class='header'> Education </h3>
 				<ul>
 					<li> BS in Physics </li>
 					<li> Master's in Physics </li>
@@ -95,7 +92,7 @@ layout: custom
 <!-- CV section -->
 <a id='cv'></a>
 <div class="jumbotron cv-jumbotron text-center">
-	<h1>Curriculum Vitae</h1>
+	<h1 class='header'>Curriculum Vitae</h1>
 	<br />
 	<button type="button" class="btn btn-default btn-lg" id="CV-button">Show CV</button>
 	<a href="/assets/CV-JamesBourbeau.pdf" target="_blank"><button type="button" class="btn btn-default btn-lg" id="PDF-CV-button">Open CV PDF</button></a>
@@ -111,7 +108,7 @@ layout: custom
 <!-- Blog section -->
 <a id='blog' class='scroll-link'></a>
 <div class="bg3">
-	<h1> Recent blog posts </h1>
+	<h1 class='header'> Recent blog posts </h1>
 </div>
 <div class="container-fluid white-background bottom-padding">
 	<div class="row bottom-padding">
@@ -121,7 +118,8 @@ layout: custom
 			<ul class="post-list">
 				{% for post in site.posts %}
 					<li class="top-padding">
-						<h3 class='post-title'><a class="text-center" href="{{ post.url }}">{{ post.title }}</a></h3>
+						<!-- <h3 class='post-title'><a class="text-center" href="{{ post.url }}">{{ post.title }}</a></h3> -->
+						<h3 class='header'><a class="text-center" href="{{ post.url }}">{{ post.title }}</a></h3>
 						<p>{{ post.date | date: "%b %-d, %Y" }}</p>
 						{{ post.excerpt }}
 					</li>
@@ -140,6 +138,16 @@ layout: custom
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="https://d3js.org/d3.v4.js"></script>
 <script>
+	// var jumboHeight = $('.top-jumbotron').outerHeight();
+	// function parallax(){
+	//     var scrolled = $(window).scrollTop();
+	//     $('.bg').css('height', (jumboHeight-scrolled) + 'px');
+	// }
+	//
+	// $(window).scroll(function(e){
+	//     parallax();
+	// });
+
 	// Scroll to top stuff
 	$(document).ready(function(){
 		//Check to see if the window is top if not then display button

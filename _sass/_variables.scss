@@ -5,6 +5,19 @@ $parallax-height: 300px;
 $light-gray: #F2F2F2;
 $dark-gray: #4d4d4d;
 $diff-color: rgb(250, 246, 236);
+$normal-font: 'Roboto', sans-serif;
+$header-font: 'Roboto', sans-serif;
+$font-size: 18px;
+
+.header {
+    font-family: $header-font;
+    font-weight: 400;
+}
+
+blockquote {
+    font-family: $normal-font;
+    font-size: $font-size;
+}
 
 .vertical-align {
     /*     display: flex; */
@@ -29,7 +42,10 @@ body {
     position: relative;
     width: 100%;
     min-height: 100%;
-    //min-width: 100%;
+    font-family: $normal-font;
+    font-weight: 300;
+    font-size: $font-size;
+    color: $dark-gray;
 }
 /* Link style: want links to be same as surrounding text until cursor hovers over link */
 a {
@@ -67,11 +83,18 @@ ul.nav a:focus {
 //         }
 //     }
 //     h2 {
-//         font-family: 'Lato', sans-serif;
+//         font-family: $normal-font;
 //         font-weight: 400;
 //         color: $dark-gray;
 //     }
 // }
+
+#resume-section {
+    li {
+        list-style-type: circle;
+    }
+}
+
 .vertical-line-post {
     border-style: solid;
     border-width: 1px;
@@ -93,9 +116,9 @@ ul.nav a:active {
 	padding:10px;
 	text-align:center;
 	background: transparent;
-    font-family: 'Lato', sans-serif;
+    font-family: $normal-font;
     font-weight: 300;
-    font-size: 18px;
+    font-size: $font-size;
 	color: gray;
 	text-decoration: none;
 	position:fixed;
@@ -109,44 +132,15 @@ ul.nav a:active {
 .scroll-link:hover {
     text-decoration: none;
 }
-p {
-    font-family: 'Lato', sans-serif;
-    font-weight: 300;
-    font-size: 18px;
-    color: $dark-gray;
-}
-
 .nav {
-    font-family: 'Lato', sans-serif;
-    font-weight: 300;
-    font-size: 18px;
     color: white;
-    // text-shadow: #444 0 1px 1px;
-}
-
-#resume-section {
-    font-family: 'Lato', sans-serif;
-    font-weight: 300;
-    color: $dark-gray;
-    li {
-        font-size: 18px;
-    }
-    h3 {
-        // color: black;
-    }
-}
-#research-section {
-    // h2 {
-    //     color: red;
-    // }
-    font-family: 'Lato', sans-serif;
-    font-weight: 300;
-    // font-size: 18px;
-    // color: black;
+    font-size: 20px;
 }
 
 .bg {
-    background: url('/assets/terrace.jpg') no-repeat center center;
+    background: url('/assets/mendota2.jpg') no-repeat center center;
+    background-size: cover;
+    // background: url('/assets/terrace.jpg') no-repeat center center;
     background-attachment: fixed;
     width: 100%;
     height: $jumbotron-height;
@@ -156,7 +150,9 @@ p {
     z-index: -1;
 }
 .bg-post {
-    background: url('/assets/terrace.jpg') no-repeat center center;
+    background: url('/assets/mendota2.jpg') no-repeat center center;
+    background-size: cover;
+    // background: url('/assets/terrace.jpg') no-repeat center center;
     background-attachment: fixed;
     width: 100%;
     height: $jumbotron-height-post;
@@ -178,15 +174,11 @@ p {
     z-index: -1;
 
     h1 {
-        //transform: translateX(50%);
-        //transform: translateY(50%);
         text-align: center;
         vertical-align: middle;
         line-height: $parallax-height;
         /* the same as your div height */
-        font-family: 'Roboto Mono', sans-serif;
-        font-weight: 100;
-        font-size: 70px;
+        font-size: 60px;
         color: $light-gray;
         margin-top: 0;
         margin-bottom: 0;
@@ -203,11 +195,7 @@ p {
     padding-right: 0;
 
     h1 {
-        font-family: 'Roboto', sans-serif;
-        font-weight: 400;
-        font-size: 40px;
-        color: $dark-gray;
-        // text-shadow: #444 0 1px 1px;
+        font-size: 60px;
     }
 }
 
@@ -223,11 +211,6 @@ p {
     }
 
     h1 {
-        // transform: translateY(60%);
-        font-family: 'Roboto', sans-serif;
-        font-weight: 400;
-        // position: relative;
-        // text-align: right;
         font-size: 40px;
         color: white;
         text-shadow: #444 0 1px 1px;
@@ -235,12 +218,6 @@ p {
     }
 
     p {
-        // transform: translateY(60%);
-        font-family: 'Lato', sans-serif;
-        //font-family: 'Roboto', sans-serif;
-        font-weight: 300;
-        // position: relative;
-        // text-align: left;
         color: white;
     }
 }
@@ -262,22 +239,10 @@ p {
     font-weight: 300;
 }
 
-#about-me {
-    font-family: 'Lato', sans-serif;
-    font-weight: 300;
-    font-size: 18px;
-    color: black;
-}
-
 #picture {
     position: relative;
     border-radius: 50%;
     border: 1px solid rgb(239, 67, 39);
-}
-
-#resume-header {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
 }
 
 .green-text {
@@ -319,8 +284,6 @@ lead {
 }
 
 footer {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
     background-color: $dark-gray;
     height: 60px;
     position: absolute;
@@ -338,13 +301,12 @@ footer {
 }
 
 .btn {
-    font-family: 'Lato', sans-serif;
-    font-weight: 300;
-    font-size: 18px;
     border-style: solid;
     border-width: 1px;
     border-radius: 2px;
     border-color: gray;
+    font-style: $normal-font;
+    font-weight: 300;
 }
 
 .btn-default:focus {
@@ -386,19 +348,11 @@ footer {
 
 .post-list {
     text-decoration: none;
-    font-family: 'Lato', sans-serif;
-    font-weight: 300;
-    font-size: 20px;
-    color: $dark-gray;
     list-style-type: none;
 }
 .post-title {
-    font-family: 'Lato', sans-serif;
-    font-weight: 400;
-    color: $dark-gray;
 }
 .post-header {
-    text-color: $dark-gray;
 }
 .circle-div {
     // display: inline;
