@@ -50,18 +50,21 @@ body {
 /* Link style: want links to be same as surrounding text until cursor hovers over link */
 a {
     text-decoration: none;
-    color: inherit;
+    // color: CadetBlue;
+    // color: inherit;
 }
 
 a:hover {
     text-decoration: underline;
-    color: inherit;
+    // color: CadetBlue;
 }
 
 ul.nav {
+    color: white;
     background-color: transparent !important;
 }
 ul.nav a:hover {
+    color: white;
     background-color: transparent !important;
     text-decoration: underline;
 }
@@ -70,6 +73,7 @@ ul.nav a:focus {
     color: white;
 }
 .post-header {
+    color: $dark-gray;
     a:hover {
         text-decoration: none;
     }
@@ -101,9 +105,11 @@ ul.nav a:focus {
     -webkit-border-image: -webkit-gradient(linear, left top, left bottom, from(transparent), to(transparent), color-stop(50%, $dark-gray))0 0 0 100% stretch;
 }
 ul.nav a:visited {
+    color: white;
     background-color: transparent !important;
 }
 ul.nav a:active {
+    color: white;
     background-color: transparent !important;
 }
 
@@ -342,6 +348,10 @@ footer {
     padding-bottom: 60px;
 }
 
+.post-bottom-padding {
+    padding-bottom: 150px;
+}
+
 .bottom-row {
     padding-bottom: 60px;
 }
@@ -351,6 +361,7 @@ footer {
     list-style-type: none;
 }
 .post-title {
+    color: $dark-gray;
 }
 .post-header {
 }
