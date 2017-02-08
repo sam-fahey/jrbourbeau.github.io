@@ -7,11 +7,11 @@ $dark-gray: #4d4d4d;
 $diff-color: rgb(250, 246, 236);
 $normal-font: 'Roboto', sans-serif;
 $header-font: 'Roboto', sans-serif;
-$font-size: 18px;
+$font-size: 17px;
 
 .header {
     font-family: $header-font;
-    font-weight: 400;
+    font-weight: 400 !important;
 }
 
 blockquote {
@@ -140,7 +140,7 @@ ul.nav a:active {
 }
 .nav {
     color: white;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .bg {
@@ -252,7 +252,8 @@ ul.nav a:active {
 }
 
 .green-text {
-    color: rgb(81, 145, 116);
+    // color: rgb(81, 145, 116);
+    color: rgb(21, 149, 136);
 }
 
 lead {
@@ -290,7 +291,7 @@ lead {
 }
 
 footer {
-    background-color: $dark-gray;
+    background-color: $light-gray;
     height: 60px;
     position: absolute;
     left: 0;
@@ -298,7 +299,7 @@ footer {
     width: 100%;
     overflow: hidden;
     p {
-        color: white;
+        color: $dark-gray;
     }
 }
 
@@ -310,9 +311,13 @@ footer {
     border-style: solid;
     border-width: 1px;
     border-radius: 2px;
-    border-color: gray;
+    // border-color: gray;
     font-style: $normal-font;
     font-weight: 300;
+    font-size: 20px;
+}
+.btn:active {
+    box-shadow: none;
 }
 
 .btn-default:focus {
@@ -320,18 +325,47 @@ footer {
     border-color: default;
 }
 
+button,
+button:active,
+button:focus,
+button:hover {
+    outline: none !important;
+}
+
+.cv-button{
+    border: none !important;
+}
+.cv-button:hover {
+    text-decoration: underline;
+}
+
 .btn-success,
 .btn-success:active,
 .btn-success:focus,
 .btn-success:focus:active,
 .btn-success:hover {
-    color: black;
-    background-color: rgba(81, 145, 116, 0.3);
-    border-color: gray;
+    color: rgb(21, 149, 136) !important;
+    background-color: transparent;
+    outline: none !important;
+}
+
+.btn-default,
+.btn-default:active,
+.btn-default:focus,
+.btn-default:focus:active,
+.btn-default:hover {
+    color: $dark-gray;
+    background-color: transparent;
+    outline: none !important;
 }
 
 .btn:focus {
     outline: none;
+}
+
+.rounded-button {
+    // border: 1px gray solid;
+    border-radius: 10px;
 }
 
 .pdf-button {

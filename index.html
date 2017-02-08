@@ -39,7 +39,7 @@ layout: custom
         </div><!--
 		--><div class="col-sm-8 col-md-5 col-lg-6 vcenter" id="about-me">
             <blockquote class="pull-left">
-                I'm a physics Ph.D. student, data analyst, and python programmer with an interest in machine learning and open-source software. In my free time I like being outside with friends and enjoying life in MadTown with my MadCats!
+                I'm a physics Ph.D. student, data analyst, and programmer with an interest in machine learning and open-source software. In my free time I like being outside with friends and enjoying life in MadTown with my MadCats!
                 <!-- <br> I received my bachelor's degree in physics from the University of Texas at Arlington in 2013. While at UTA I worked with
                 <a href="http://www-hep.uta.edu/~brandta/homepage.html">Andrew Brandt</a> on developing a high precision time-of-flight detector as part of a potential upgrade to the ATLAS detector at the LHC. My work primarily focused on improving
                 and maintaining the data analysis code base of the group.
@@ -87,20 +87,72 @@ layout: custom
 </div>
 
 <!-- Research section -->
-{% include research-section.html %}
+<div class="container-fluid white-background" id="research-section">
+
+	<div class="row padding-top">
+		<!-- <div class="jumbotron">
+		    <a id='research' class='scroll-link'><h1 class='green-text'>Research</h1></a>
+	    </div> -->
+		<div class="page-header text-center">
+		    <a id='research' class='scroll-link'><h1 class='green-text header'>Research</h1></a>
+		</div>
+	</div>
+	<div class="row bottom-padding">
+		<div class="col-sm-2">
+		</div>
+		<div class="col-sm-4">
+			<h3 class='header'>Cosmic-ray Physics</h3>
+			<!-- <h3 style="font-family: 'Roboto', sans-serif;">Cosmic-ray Physics</h3> -->
+			<p>
+				My research is focused on studying the cosmic-ray (CR) composition spectrum using the IceCube South Pole Neutrino Observatory. The central task is to produce an algorithm that can accurately classify different particles (e.g. protons, helium nuclei, iron nuclei, etc). More information can be found on the <a href="https://github.com/jrbourbeau/cr-composition" target="_blank">GitHub</a> page for this analysis.
+			</p>
+		</div>
+		<div class="col-sm-4">
+			<img class="img-responsive" width="90%" src="{{ site.baseurl }}/assets/radviz.png" alt="radviz" style="margin: 0 auto;">
+		</div>
+		<div class="col-sm-2">
+		</div>
+	</div>
+	<div class="row vertical-align bottom-padding">
+		<div class="col-sm-2">
+		</div>
+		<div class="col-sm-4 hidden-md hidden-sm hidden-xs">
+			<img class="img-responsive" width="80%" src="{{ site.baseurl }}/assets/Zprime-feynman.png" alt="Mono-Z' Feynman diagram" style="margin: 0 auto;">
+		</div>
+		<div class="col-sm-4">
+			<h3 class='header'>High Energy Pheno</h3>
+			<!-- <h3 style="font-family: 'Roboto', sans-serif;">High Energy Pheno</h3> -->
+			<p>
+				During my first two years of graduate school I worked with <a href="http://www.physics.wisc.edu/~yangbai/Home.html">Yang Bai</a> in the high energy
+				<a href="http://www.pheno.wisc.edu/">phenomenology group</a> on investigating a specific dark matter signature produced by Z' jets at the Large Hadron Collider (LHC). We, along with our collaborator Tongyan Lin, published a paper on
+				this topic in the Journal for High Energy Physics [<a href="http://arxiv.org/abs/1504.01395">arXiv:1504.01395</a>].
+			</p>
+			<blockquote>
+				<p> Y. Bai, <b>J. Bourbeau</b>, and T. Lin. "Dark matter searches with a mono-Z' jet," <i>JHEP</i> <b>06</b>, 205 (2015). DOI: 10.1007/JHEP06 (2015) 205.</p>
+			</blockquote>
+			<a class="btn btn-default pdf-button" href="/assets/monoZprime.pdf" role="button" target="_blank">PDF</a>
+		</div>
+		<div class="col-sm-2">
+		</div>
+	</div>
+</div>
 
 <!-- CV section -->
 <a id='cv'></a>
 <div class="jumbotron cv-jumbotron text-center">
 	<h1 class='header'>Curriculum Vitae</h1>
 	<br />
-	<button type="button" class="btn btn-default btn-lg" id="CV-button">Show CV</button>
-	<a href="/assets/CV-JamesBourbeau.pdf" target="_blank"><button type="button" class="btn btn-default btn-lg" id="PDF-CV-button">Open CV PDF</button></a>
+	<button type="button" class="cv-button rounded-button btn btn-default btn-lg" id="education-button">Education</button>
+	<button type="button" class="cv-button rounded-button btn btn-default btn-lg" id="researchcv-button">Research</button>
+	<button type="button" class="cv-button rounded-button btn btn-default btn-lg" id="talks-button">Selected Talks</button>
+	<a href="/assets/CV-JamesBourbeau.pdf" target="_blank"><button type="button" class="cv-button rounded-button btn btn-default btn-lg" id="PDF-CV-button">CV PDF</button></a>
 </div>
 <div class="container-fluid">
 	<div class="row">
 	    <div class="col-sm-12">
-			{% include cv.html %}
+			{% include education.html %}
+			{% include research.html %}
+			{% include talks.html %}
 		</div>
 	</div>
 </div>
@@ -138,16 +190,6 @@ layout: custom
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="https://d3js.org/d3.v4.js"></script>
 <script>
-	// var jumboHeight = $('.top-jumbotron').outerHeight();
-	// function parallax(){
-	//     var scrolled = $(window).scrollTop();
-	//     $('.bg').css('height', (jumboHeight-scrolled) + 'px');
-	// }
-	//
-	// $(window).scroll(function(e){
-	//     parallax();
-	// });
-
 	// Scroll to top stuff
 	$(document).ready(function(){
 		//Check to see if the window is top if not then display button
@@ -187,18 +229,42 @@ layout: custom
 	  });
 	});
 
-    $("#CV-section").hide();
+	var sections = ['education', 'researchcv', 'talks'];
 
-    $("#CV-button").click(function() {
-		var $this = $(this);
-		$(this).toggleClass("active-button");
-		$(this).toggleClass("btn-default");
-		$(this).toggleClass("btn-success");
-        $("#CV-section").slideToggle();
-		if($this.hasClass("active-button")){
-	        $this.text("Hide CV");
-	    } else {
-	        $this.text("Show CV");
-	    }
-    });
+	sections.forEach(function(element) {
+		var section = "#" + element + "-section";
+		var button = "#" + element + "-button";
+	    console.log(`Hiding ${section}`);
+		// Hide section initially
+	    $(section).hide();
+
+	    $(button).click(function() {
+			// Check to see if any of the other buttons are currently selected
+			var is_other_selected = false;
+			var other_selected;
+			sections.forEach(function(other_element) {
+				if(element == other_element) { return; }
+				if($(`#${other_element}-button`).hasClass("btn-success")) {
+					is_other_selected = true;
+					other_selected = other_element;
+					console.log(`#${other_selected}-button is currently selected`);
+				}
+			});
+
+			// Toggle this button
+			console.log(`toggling ${section}`);
+			$(button).toggleClass("btn-success");
+			$(button).toggleClass("header");
+			if (is_other_selected){
+				$(section).show(0);
+				$(`#${other_selected}-button`).removeClass("btn-success");
+				$(`#${other_selected}-button`).removeClass("header");
+				$(`#${other_selected}-section`).hide(0);
+			} else {
+				$(section).slideToggle();
+			}
+	    });
+	});
+
+
 </script>
