@@ -14,6 +14,10 @@ $font-size: 17px;
     font-weight: 400 !important;
 }
 
+.capitalize {
+    text-transform: capitalize !important;
+}
+
 blockquote {
     font-family: $normal-font;
     font-size: $font-size;
@@ -116,27 +120,28 @@ ul.nav a:active {
 .underlined {
     text-decoration: underline;
 }
-.scrollToTop{
+
+#scroller{
 	width:100px;
-	height:130px;
+	height:50px;
 	padding:10px;
 	text-align:center;
 	background: transparent;
     font-family: $normal-font;
     font-weight: 300;
     font-size: $font-size;
-	color: gray;
 	text-decoration: none;
 	position:fixed;
 	top:100px;
 	right:40px;
 	display:none;
+    a {
+    	color: $dark-gray;
+        // text-decoration: none;
+    }
 }
-.scrollToTop:hover{
+#scroller:hover{
 	text-decoration:none;
-}
-.scroll-link:hover {
-    text-decoration: none;
 }
 .nav {
     color: white;
