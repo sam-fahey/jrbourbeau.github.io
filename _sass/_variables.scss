@@ -14,6 +14,21 @@ $font-size: 17px;
     font-weight: 400 !important;
 }
 
+.light-weight-font {
+    font-family: $header-font;
+    font-weight: 300 !important;
+}
+
+.mid-weight-font {
+    font-family: $header-font;
+    font-weight: 400 !important;
+}
+
+.heavy-weight-font {
+    font-family: $header-font;
+    font-weight: 500 !important;
+}
+
 .capitalize {
     text-transform: capitalize !important;
 }
@@ -146,6 +161,9 @@ ul.nav a:active {
 .nav {
     color: white;
     font-size: 18px;
+    a {
+        color: white;
+    }
 }
 
 .bg {
@@ -352,6 +370,7 @@ button:hover {
     color: rgb(21, 149, 136) !important;
     background-color: transparent;
     outline: none !important;
+    font-weight: 700 !important;
 }
 
 .btn-default,
