@@ -97,6 +97,9 @@ ul.nav a:focus {
         text-decoration: none;
     }
 }
+.no-text-decoration:hover{
+    text-decoration: none;
+}
 // .post-header {
 //     .nav {
 //         color: $dark-gray;
@@ -167,7 +170,7 @@ ul.nav a:active {
 }
 
 .bg {
-    background: url('/assets/mendota2.jpg') no-repeat center center;
+    background: url('/assets/mendota3.jpg') no-repeat center center;
     background-size: cover;
     // background: url('/assets/terrace.jpg') no-repeat center center;
     background-attachment: fixed;
@@ -179,7 +182,7 @@ ul.nav a:active {
     z-index: -1;
 }
 .bg-post {
-    background: url('/assets/mendota2.jpg') no-repeat center center;
+    background: url('/assets/mendota3.jpg') no-repeat center center;
     background-size: cover;
     // background: url('/assets/terrace.jpg') no-repeat center center;
     background-attachment: fixed;
@@ -314,7 +317,9 @@ lead {
 }
 
 footer {
-    background-color: $light-gray;
+    background-color: $dark-gray;
+    // background-color: #333333;
+    // background-color: $light-gray;
     height: 60px;
     position: absolute;
     left: 0;
@@ -322,7 +327,7 @@ footer {
     width: 100%;
     overflow: hidden;
     p {
-        color: $dark-gray;
+        color: white;
     }
 }
 

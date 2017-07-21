@@ -8,10 +8,10 @@
 # Site settings
 title: James Bourbeau
 author: James Bourbeau
-email: jbourbeau@wisc.edu
+email: mail@jamesbourbeau.com
 description: I'm a physics Ph.D. graduate student and data analyst with an interest in machine learning
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://jamesbourbeau.com" # the base hostname & protocol for your site
+url: "https://jrbourbeau.github.io" # the base hostname & protocol for your site
 twitter_username: bourbeaujames
 github_username:  jrbourbeau
 encoding: "utf-8"
