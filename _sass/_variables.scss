@@ -5,7 +5,8 @@ $parallax-height: 300px;
 $light-gray: #F2F2F2;
 $dark-gray: #4d4d4d;
 $diff-color: rgb(250, 246, 236);
-$normal-font: 'Roboto', sans-serif;
+// $normal-font: 'Roboto', sans-serif;
+$normal-font: 'Roboto Slab', serif;
 $header-font: 'Roboto', sans-serif;
 $font-size: 17px;
 
@@ -280,6 +281,14 @@ ul.nav a:active {
 .green-text {
     // color: rgb(81, 145, 116);
     color: rgb(21, 149, 136);
+    font-size: 50px;
+}
+
+.hr-width {
+  border-top: 0px solid rgb(21, 149, 136) !important;
+  padding: 0;
+  margin-top: 0.3em !important;
+  border-width: 4px !important;
 }
 
 lead {
