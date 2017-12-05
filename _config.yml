@@ -12,10 +12,10 @@ email: mail@jamesbourbeau.com
 description: I'm a physics Ph.D. graduate student and data analyst with an interest in machine learning
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://jrbourbeau.github.io" # the base hostname & protocol for your site
-twitter_username: bourbeaujames
+twitter_username: __jrbourbeau__
 github_username:  jrbourbeau
 encoding: "utf-8"
 
 # Build settings
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
