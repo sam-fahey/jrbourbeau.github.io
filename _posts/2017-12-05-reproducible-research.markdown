@@ -1,5 +1,4 @@
 ---
-layout: custompost
 title:  Reproducible Research with Python
 ---
 

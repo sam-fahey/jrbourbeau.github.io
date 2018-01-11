@@ -1,6 +1,8 @@
 ---
-layout: custompost
 title:  HTCondor made easy with PyCondor
+tags:
+  - python
+  - pycondor
 ---
 
 
