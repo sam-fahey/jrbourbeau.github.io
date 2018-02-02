@@ -6,12 +6,12 @@ layout: archive
 <section class="page__content" itemprop="text">
 <!-- <section class="page__content" itemprop="text" style="font-size:$type-size-6"> -->
     <p>
-        My name is James Bourbeau. I'm a physics Ph.D. student, data analyst, and programmer with an interest in data science and open-source software. In my free time I like spending time outside with friends and enjoying life in MadTown with my MadCats!
+        My name is James Bourbeau. I'm a physics Ph.D. student, data analyst, and programmer with an interest in data science and open-source software. In my free time I like spending time outside with friends and enjoying life in Madison, WI!
     </p>
 </section>
 <br />
 
-<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
+<h2 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h2>
 
 {% for post in paginator.posts %}
   {% include archive-single.html %}

@@ -13,7 +13,7 @@ type: pages
  applying machine learning techniques to data collected with the IceCube South Pole Neutrino Observatory to study the composition of cosmic-rays at high energies. A better
   understanding of the cosmic-ray composition can help answer fundamental questions related to the origin of cosmic rays. More information can be found on the [GitHub](https://github.com/jrbourbeau/cr-composition) page for this analysis.
 {: .text-left}
----
+
 
 ## Dark Matter Phenomenology
 

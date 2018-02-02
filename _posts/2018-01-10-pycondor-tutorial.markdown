@@ -5,7 +5,6 @@ tags:
   - pycondor
 toc: true
 toc_label: "Table of contents"
-excerpt: "A tutorial on creating HTCondor workflows with PyCondor."
 ---
 
 Often the need arises to perform a series of tasks that are related to one another. For example, you might have a workflow that's something like "do task A, then do task B, and then do task C". These dependencies, task A must be done before task B and task B must be done before task C, can be encapsulated in a directed acyclic graph (DAG). There are many libraries and frameworks for constructing and executing DAGs. One in particular, [HTCondor](https://research.cs.wisc.edu/htcondor/), I utilize in my work.

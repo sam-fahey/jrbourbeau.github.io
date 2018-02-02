@@ -41,6 +41,33 @@ toc_label: "R&eacute;sum&eacute;"
     </ul>
 </div>
 
+
+## Technical Skills
+<div>
+    <p>I have experience with:</p>
+    <ul>
+        <li>
+            <p>Python programming</p>
+        </li>
+        <li>
+            <p>Machine learning (scikit-learn, xgboost, keras, etc.)</p>
+        </li>
+        <li>
+            <p>Scientific computing (numpy, pandas, etc.)</p>
+        </li>
+        <li>
+            <p>Distributed and parallel computing (dask, HTCondor)</p>
+        </li>
+        <li>
+            <p>Data visualization (matplotlib, seaborn)</p>
+        </li>
+        <li>
+            <p>Version control systems (git)</p>
+        </li>
+    </ul>
+</div>
+
+
 ## Selected Talks
 <div>
     <ul>
