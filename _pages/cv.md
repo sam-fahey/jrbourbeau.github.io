@@ -11,40 +11,9 @@ toc: true
 toc_label: "R&eacute;sum&eacute;"
 ---
 
-## Education
-<div>
-    <ul>
-        <li>
-            <p> PhD, Physics (in progress)
-                <br><i>University of Wisconsin&mdash;Madison</i>
-                <ul>
-                    <li>Advisor: Stefan Westerhoff</li>
-                </ul>
-            </p>
-        </li>
-        <li>
-            <p> MS, Physics
-                <br><i>University of Wisconsin&mdash;Madison</i>
-            </p>
-        </li>
-        <li>
-            <p> Honors BS, Physics
-                <br><i>University of Texas at Arlington</i>
-                <ul>
-                    <li>Summa Cum Laude</li>
-                    <li>Thesis: <i>Detector Development for a High Precision Time of Flight Detector</i></li>
-                    <li>Advisor: Andrew Brandt</li>
-                    <li>Minor: Mathematics</li>
-                </ul>
-            </p>
-        </li>
-    </ul>
-</div>
-
-
 ## Technical Skills
 <div>
-    <p>I have experience with:</p>
+    <p>I am experienced with:</p>
     <ul>
         <li>
             <p>Python programming</p>
@@ -68,31 +37,56 @@ toc_label: "R&eacute;sum&eacute;"
 </div>
 
 
-## Selected Talks
-<div>
+## Education
+<!-- <div>
     <ul>
         <li>
-            <p> "Introduction to shell and Python"
-                <br> <i>IceCube Software Bootcamp&mdash;Madison, WI</i>
-            </p>
-        </li>
-        <li>
-            <p> "Cosmic-ray Dipole Measurement Update"
-                <br> <i>IceCube Collaboration Meeting&mdash;Stony Brook, NY</i>
-            </p>
-        </li>
-        <li>
-            <p> "Dark Matter Searches with a Mono-Z' Jet"
-                   <br> <i>Phenomenology 2015 Symposium&mdash;Pittsburgh, PA</i>
-            </p>
-        </li>
-        <li>
-            <p> "Development of a Fast Timing System for the ATLAS Forward Proton Detector"
-                <br> <i>UTA Annual Celebration of Excellence by Students</i>
+            <p> PhD, Physics (in progress)
+                <br><i>University of Wisconsin&mdash;Madison</i>
                 <ul>
-                    <li>Received the Provost’s Award for an Undergraduate Oral Presentation.</li>
+                    <li>Advisor: Stefan Westerhoff</li>
+                </ul>
+            </p>
+        </li>
+        <li>
+            <p> MS, Physics
+                <br><i>University of Wisconsin&mdash;Madison</i>
+            </p>
+        </li>
+        <li>
+            <p> Honors BS, Physics
+                <br><i>University of Texas at Arlington</i>
+                <ul>
+                    <li>Minor: Mathematics</li>
+                    <li>Summa Cum Laude</li>
                 </ul>
             </p>
         </li>
     </ul>
-</div>
+</div> -->
+
+PhD, Physics (in progress)<br>
+University of Wisconsin&mdash;Madison
+
+MS, Physics<br>
+University of Wisconsin&mdash;Madison
+
+Honors BS, Physics<br>
+University of Texas at Arlington
+
+
+## Selected Talks
+
+"Supervised machine learning in Python with scikit-learn"<br>
+Madison Python meetup (MadPy)&mdash;Madison, WI. March 2018.<br>
+[ [Slides](https://jrbourbeau.github.io/madpy-ml-sklearn-2018/) ] [ [GitHub repo](https://github.com/jrbourbeau/madpy-ml-sklearn-2018) ]
+
+
+"Introduction to the shell and Python"<br>
+IceCube Software Bootcamp&mdash;Madison, WI. June 2016.<br>
+
+"Dark Matter Searches with a Mono-Z' Jet"<br>
+Phenomenology 2015 Symposium&mdash;Pittsburgh, PA. May 2015.
+
+"Development of a Fast Timing System for the ATLAS Forward Proton Detector"<br>
+UT-Arlington Annual Celebration of Excellence by Students. March 2012.
