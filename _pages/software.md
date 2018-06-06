@@ -9,7 +9,7 @@ scope:
     type: pages
 ---
 
-I am an active developer, maintainer, and contributor to several projects in the Python data science community. See my [GitHub profile](http://github.com/jrbourbeau) for
+I'm an active developer, maintainer, and contributor to several projects in the Python data science community. See my [GitHub profile](http://github.com/jrbourbeau) for
 details.
 
 ## Maintainer
@@ -17,14 +17,21 @@ details.
 ### PyCondor
 
 Python API for submitting tasks to an HTCondor distributed cluster.
-- [GitHub](https://github.com/jrbourbeau/pycondor)
-- [Documentation](https://jrbourbeau.github.io/pycondor/)
+<br>
+[GitHub](https://github.com/jrbourbeau/pycondor) [Documentation](https://jrbourbeau.github.io/pycondor/)
+
+### PyUnfold
+
+Python package to implement iterative unfolding algorithm.
+<br>
+[GitHub](https://github.com/jrbourbeau/pyunfold) [Documentation](https://jrbourbeau.github.io/pyunfold/)
+[Publication](https://doi.org/10.21105/joss.00741)
 
 ### decotools
 
 Python package to help analyze data collected by the Distributed Electronic Cosmic-ray Observatory.
-- [GitHub](https://github.com/WIPACrepo/decotools)
-- [Documentation](https://WIPACrepo.github.io/decotools/)
+<br>
+[GitHub](https://github.com/WIPACrepo/decotools) [Documentation](https://WIPACrepo.github.io/decotools/)
 
 
 ## Contributor
