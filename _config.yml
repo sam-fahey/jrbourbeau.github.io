@@ -86,7 +86,7 @@ analytics:
 author:
   name             : "James Bourbeau"
   avatar           : "/assets/images/bio-photo.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Physics researcher. Python programmer. Data science enthusiast."
+  bio              : "Physics researcher. Interested in scientific computing and data science."
   location         : "Madison, WI"
   email            : "james@jamesbourbeau.com"
   uri              :
@@ -181,7 +181,8 @@ sass:
 
 
 # Outputting
-permalink: /:categories/:title/
+# permalink: /:categories/:title/
+permalink: /:categories/:year/:month/:day/:title
 paginate: 4 # amount of posts to show
 paginate_path: /page:num/
 # paginate_path: /blog/page:num/

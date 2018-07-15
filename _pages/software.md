@@ -9,8 +9,7 @@ scope:
     type: pages
 ---
 
-I'm an active developer, maintainer, and contributor to several projects in the Python data science community. See my [GitHub profile](http://github.com/jrbourbeau) for
-details.
+I'm an active developer, maintainer, or contributor to several projects in the Python data science community. More details are available on my [GitHub profile](http://github.com/jrbourbeau).
 
 ## Maintainer
 
@@ -22,7 +21,7 @@ Python API for submitting tasks to an HTCondor distributed cluster.
 
 ### PyUnfold
 
-Python package to implement iterative unfolding algorithm.
+Python package for implementing iterative unfolding.
 <br>
 [GitHub](https://github.com/jrbourbeau/pyunfold) [Documentation](https://jrbourbeau.github.io/pyunfold/)
 [Publication](https://doi.org/10.21105/joss.00741)
@@ -36,6 +35,6 @@ Python package to help analyze data collected by the Distributed Electronic Cosm
 
 ## Contributor
 
-- [scikit-learn](https://github.com/scikit-learn/scikit-learn) &mdash; Python machine learning library.
 - [dask](https://github.com/dask/dask) &mdash; Flexible parallel computing library.
+- [scikit-learn](https://github.com/scikit-learn/scikit-learn) &mdash; Python machine learning library.
 - [mlxtend](https://github.com/rasbt/mlxtend) &mdash; Extension and helper modules for Python's data analysis and machine learning libraries.
