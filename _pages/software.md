@@ -9,32 +9,32 @@ scope:
     type: pages
 ---
 
-I'm an active developer, maintainer, or contributor to several projects in the Python data science community. More details are available on my [GitHub profile](http://github.com/jrbourbeau).
-
-## Maintainer
+I'm an active developer, maintainer, or contributor to several projects in the Python data science community. Projects I maintain or have made significant contributions to include:
 
 ### PyCondor
 
-Python API for submitting tasks to an HTCondor distributed cluster.
+Python API for submitting tasks to an HTCondor distributed cluster
 <br>
 [GitHub](https://github.com/jrbourbeau/pycondor) [Documentation](https://jrbourbeau.github.io/pycondor/)
 
 ### PyUnfold
 
-Python package for implementing iterative unfolding.
+Python package for implementing Bayesian iterative unfolding
 <br>
 [GitHub](https://github.com/jrbourbeau/pyunfold) [Documentation](https://jrbourbeau.github.io/pyunfold/)
 [Publication](https://doi.org/10.21105/joss.00741)
 
-### decotools
+### Dask
 
-Python package to help analyze data collected by the Distributed Electronic Cosmic-ray Observatory.
+Python library for parallel and distributed computing
 <br>
-[GitHub](https://github.com/WIPACrepo/decotools) [Documentation](https://WIPACrepo.github.io/decotools/)
+[GitHub](https://github.com/dask/dask) [Documentation](http://dask.pydata.org/en/latest/)
 
 
-## Contributor
+I've also made contributions to:
 
-- [dask](https://github.com/dask/dask) &mdash; Flexible parallel computing library.
 - [scikit-learn](https://github.com/scikit-learn/scikit-learn) &mdash; Python machine learning library.
-- [mlxtend](https://github.com/rasbt/mlxtend) &mdash; Extension and helper modules for Python's data analysis and machine learning libraries.
+- [MLxtend](https://github.com/rasbt/mlxtend) &mdash; Extension and helper modules for Python's data analysis and machine learning libraries.
+
+
+Full details are available on my [GitHub profile](http://github.com/jrbourbeau).

@@ -86,7 +86,7 @@ analytics:
 author:
   name             : "James Bourbeau"
   avatar           : "/assets/images/bio-photo.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Physics researcher. Interested in scientific computing and data science."
+  bio              : "Physics researcher. Interested in machine learning, data science, and software development."
   location         : "Madison, WI"
   email            : "james@jamesbourbeau.com"
   uri              :
