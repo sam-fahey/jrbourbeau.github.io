@@ -9,13 +9,13 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "James"
+title                    : "Sam Fahey"
 title_separator          : "-"
-name                     : "James Bourbeau"
-description              : "ASDFASDFASF"
+name                     : "Sam Fahey"
+description              : "my web page"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "jrbourbeau/jrbourbeau.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "sam-fahey/sam-fahey.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -61,8 +61,8 @@ yandex_site_verification :
 naver_site_verification  :
 
 # Social Sharing
-twitter:
-  username               : "__jrbourbeau__"
+#twitter:
+# username               : "__jrbourbeau__"
 facebook:
   username               :
   app_id                 :
@@ -84,11 +84,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "James Bourbeau"
+  name             : "Sam Fahey"
   avatar           : "/assets/images/bio-photo.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Physics researcher. Interested in machine learning, data science, and software development."
+  bio              : "Physics PhD candidate."
   location         : "Madison, WI"
-  email            : "james@jamesbourbeau.com"
+  email            : "sam.j.fahey@gmail.com.com"
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
   bitbucket        :
@@ -97,19 +97,19 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "jrbourbeau"
+  github           : "sam-fahey"
   gitlab           :
   google_plus      :
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         : "jrbourbeau" # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
+  linkedin         : "sam-fahey" # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
   pinterest        :
   soundcloud       :
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
   steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
   tumblr           :
-  twitter          : "__jrbourbeau__"
+  twitter          : #"__jrbourbeau__"
   vine             :
   weibo            :
   xing             :
