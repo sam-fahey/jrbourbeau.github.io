@@ -26,13 +26,13 @@ University of Wisconsin&mdash;Madison<br>
 
 ### M.S. in Physics
 University of Wisconsin&mdash;Madison<br>
--Van Vleck Fellowship (2014)
+- Van Vleck Fellowship (2014)
 
 ### B.S. in Physics<br>
 University of Wisconsin&mdash;Eau Claire<br>
-Summa cum laude, departmental honors
--Jacob Clarkson memorial scholarship (2013)
--Outstanding Senior Award (2013)
+Summa cum laude, departmental honors<br>
+- Jacob Clarkson memorial scholarship (2013)
+- Outstanding Senior Award (2013)
 
 ## Professional Experience
 
