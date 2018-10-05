@@ -15,45 +15,37 @@ toc_label: "R&eacute;sum&eacute;"
 
 ## Professional Interests
 
-My professional interests include: scientific computing, machine learning, deep learning, data manipulation and visualization, and software development.
-
+My professional interests
 
 ## Programming Skills
 
-#### Python
-NumPy, SciPy, Pandas, scikit-learn, XGBoost, Keras, TensorFlow, Dask, matplotlib, Sphinx
-
-#### Other tools
-git, Bash, Docker, make, HDF5, Latex
-
-
 ## Education
 
-Ph.D. in Physics (graduating May 2019)<br>
-University of Wisconsin&mdash;Madison
+### Ph.D. in Physics (graduating December 2018)
+University of Wisconsin&mdash;Madison<br>
 
-M.S. in Physics<br>
-University of Wisconsin&mdash;Madison
+### M.S. in Physics
+University of Wisconsin&mdash;Madison<br>
+-Van Vleck Fellowship (2014)
 
-B.S. in Physics<br>
-University of Texas at Arlington
+### B.S. in Physics<br>
+University of Wisconsin&mdash;Eau Claire<br>
+Summa cum laude, departmental honors
+-Jacob Clarkson memorial scholarship (2013)
+-Outstanding Senior Award (2013)
 
 ## Professional Experience
 
 ### Wisconsin IceCube Particle Astrophysics Center
 Graduate Research Assistant || Jan 2016 &mdash; Present || Madison, WI
 
-- Built a machine learning analysis framework to automate both classification and regression tasks on a 2 TB dataset of comic-ray samples
-- Developed an [open source Python package](https://github.com/jrbourbeau/pyunfold) that implements a Bayesian statistical deconvolution algorithm
-- Implemented a data processing pipeline to ensure quality data selections
-- Engineered a deep learning model to classify images collected from a global network of smart phone cameras with an accuracy of 95%
-- Developed strong written and verbal communication skills working as a member of a large scientific collaboration with hundreds of members
+- thing
+- thing
 
 ### University of Texas at Arlington
-Undergraduate Research Assistant || May 2010 &mdash; May 2013 || Arlington, TX
+Teacher helper || May 2010 &mdash; May 2013 || Arlington, TX
 
-- Performed statistical analysis and visualization of data collected in our lab
-- Maintained and further developed research group's C++ codebase
+- did things
 
 
 ## Publications
