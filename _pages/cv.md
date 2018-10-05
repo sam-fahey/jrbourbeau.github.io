@@ -29,7 +29,7 @@ University of Wisconsin&mdash;Madison<br>
 
 ### B.S. in Physics<br>
 University of Wisconsin&mdash;Eau Claire<br>
-^Summa Cum Laude, Departmental Honors^<br>
+...*Summa Cum Laude, Departmental Honors*<br>
 
 ## Professional Experience
 
