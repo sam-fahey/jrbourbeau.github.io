@@ -85,7 +85,7 @@ analytics:
 # Site Author
 author:
   name             : "Sam Fahey"
-  avatar           : "/assets/images/bio-photo.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/bio-pic.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Physics PhD candidate."
   location         : "Madison, WI"
   email            : "sam.j.fahey@gmail.com.com"
