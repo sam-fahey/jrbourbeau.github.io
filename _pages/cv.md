@@ -11,7 +11,7 @@ toc: false
 toc_label: "R&eacute;sum&eacute;"
 ---
 
-<a href="{{ site.baseurl }}/assets/images/resume.pdf" class="btn btn--large btn--info"><i class="fas fa-file-alt"></i><span> PDF version </span></a>
+<a href="{{ site.baseurl }}/assets/images/Resume_181002.pdf" class="btn btn--large btn--info"><i class="fas fa-file-alt"></i><span> PDF version </span></a>
 
 ## Education
 
