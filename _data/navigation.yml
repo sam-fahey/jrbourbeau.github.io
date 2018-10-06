@@ -1,8 +1,6 @@
 main:
   - title: "About"
     url: /
-  - title: "Software"
-    url: /software/
   - title: "R&eacute;sum&eacute;"
     url: /resume/
   - title: "Blog"
