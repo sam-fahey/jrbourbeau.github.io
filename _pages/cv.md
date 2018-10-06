@@ -13,60 +13,35 @@ toc_label: "R&eacute;sum&eacute;"
 
 <a href="{{ site.baseurl }}/assets/images/resume.pdf" class="btn btn--large btn--info"><i class="fas fa-file-alt"></i><span> PDF version </span></a>
 
-## Professional Interests
-
-My professional interests
-
-## Programming Skills
-
 ## Education
 
 ### Ph.D. in Physics (graduating December 2018)
-University of Wisconsin&mdash;Madison<br>
+University of Wisconsin &mdash; Madison<br>
 
 ### M.S. in Physics
-University of Wisconsin&mdash;Madison<br>
+University of Wisconsin &mdash; Madison<br>
 
 ### B.S. in Physics<br>
-University of Wisconsin&mdash;Eau Claire<br>
+University of Wisconsin &mdash; Eau Claire<br>
  *Summa Cum Laude, Departmental Honors*<br>
 
 ## Professional Experience
 
 ### Wisconsin IceCube Particle Astrophysics Center
-Graduate Research Assistant || Jan 2016 &mdash; Present || Madison, WI
+Graduate Research Assistant || Jan 2015 &mdash; Present || Madison, WI<br>
 
-- thing
-- thing
+### University of Wisconsin &mdash; Madison
+Teaching Assistant || Sep 2014 &mdash; Dec 2014 || Madison, WI
 
-### University of Texas at Arlington
-Teacher helper || May 2010 &mdash; May 2013 || Arlington, TX
-
-- did things
-
+### Universtiy of Wisconsin &mdash; Eau Claire
+Electronics Lab Assistant || Jan 2014 &mdash; May 2014 || Eau Claire, WI<br>
+Teaching Assistant || Jan 2013 &mdash; May 2014 || Eau Claire, WI<br>
+Physics Tutor || Jan 2012 &mdash; Dec 2013 || Eau Claire, WI
 
 ## Publications
 
-J. Bourbeau et al., (2018). *PyUnfold: A Python package for iterative unfolding*. Journal of Open Source Software, 3(26), 741, [https://doi.org/10.21105/joss.00741](https://doi.org/10.21105/joss.00741).
+IceCube Collaboration (2018). *A Search for Neutrino Emission from Fast Radio Bursts with Six Years of IceCube Data*.<br> The Astrophysical Journal. 857 (2018) no.2, 117 [ApJ](http://iopscience.iop.org/article/10.3847/1538-4357/aab4f8/meta). [ArXiv](https://arxiv.org/abs/1712.06277).<br>
 
-M. Winter, J. Bourbeau, M. Meehan et al., *Particle Identification In Camera Image Sensors Using Computer Vision*, [https://doi.org/10.1016/j.astropartphys.2018.08.009](https://doi.org/10.1016/j.astropartphys.2018.08.009).
+S. Fahey et al., (2017). *A search for neutrinos from fast radio bursts with IceCube*.<br> The Astrophysical Journal. 845 (2017) no.1, 14 [ApJ](http://iopscience.iop.org/article/10.3847/1538-4357/aa7e28). [ArXiv](https://arxiv.org/abs/1611.03062).<br>
 
-J. Bourbeau, P. Desiati, J.C. Diaz Valez, S. Westerhoff et al. (IceCube Collaboration), *Cosmic-Ray Anisotropy with Seven Years of Data from IceCube and IceTop*, Proceedings of the 35th International Cosmic Ray Conference. [https://pos.sissa.it/301/474/pdf](https://pos.sissa.it/301/474/pdf).
-
-Y. Bai, J. Bourbeau, and T. Lin. *Dark Matter Searches with a Mono-Z' Jet*. JHEP **1506**, 205 (2015). [http://arxiv.org/pdf/1504.01395.pdf](http://arxiv.org/pdf/1504.01395.pdf).
-
-
-## Selected Presentations
-
-"Supervised machine learning in Python with scikit-learn"<br>
-Madison Python meetup (MadPy)&mdash;Madison, WI. March 2018.<br>
-[ [Slides](https://jrbourbeau.github.io/madpy-ml-sklearn-2018/) ] [ [GitHub repo](https://github.com/jrbourbeau/madpy-ml-sklearn-2018) ]
-
-"Introduction to the shell and Python"<br>
-IceCube Software Bootcamp&mdash;Madison, WI. June 2016.<br>
-
-"Dark Matter Searches with a Mono-Z' Jet"<br>
-Phenomenology 2015 Symposium&mdash;Pittsburgh, PA. May 2015.
-
-"Development of a Fast Timing System for the ATLAS Forward Proton Detector"<br>
-UT-Arlington Annual Celebration of Excellence by Students. March 2012.
+G. Stecher et al., (2015). *The Rotation Period of 4528 Berg*.<br> Minor Planet Bulletin, 42 (2015) 148. [MPB](http://www.minorplanet.info/MPB/issues/MPB_42-2.pdf).<br>
