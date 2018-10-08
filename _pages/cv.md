@@ -19,16 +19,21 @@ toc_label: "R&eacute;sum&eacute;"
 University of Wisconsin &mdash; Madison<br>
 
 ### M.S. in Physics
-University of Wisconsin &mdash; Madison<br>
+University of Wisconsin &mdash; Madison (2017)<br>
 
-### B.S. in Physics<br>
-University of Wisconsin &mdash; Eau Claire<br>
+### B.S. in Physics (minor in mathematics)<br>
+University of Wisconsin &mdash; Eau Claire (2014)<br>
  *Summa Cum Laude, Departmental Honors*<br>
 
 ## Professional Experience
 
 ### Wisconsin IceCube Particle Astrophysics Center
 Graduate Research Assistant || Jan 2015 &mdash; Present || Madison, WI<br>
+
+* write software for analysis of neutrino data in follow-up searches of astrophysical transient sources.
+* evaluate systematic errors in data reconstruction, acquisition, and analysis.
+* mentor younger researchers, teaching mathermatical foundations for likelihood methods, software frameworks, data types, organizational structures within collaboration, data visualization and presentation.
+* read and analyze newly published research; interpret results and present implications on past results, current developments, and interesting future analyses.
 
 ### University of Wisconsin &mdash; Madison
 Teaching Assistant || Sep 2014 &mdash; Dec 2014 || Madison, WI
@@ -37,6 +42,10 @@ Teaching Assistant || Sep 2014 &mdash; Dec 2014 || Madison, WI
 Electronics Lab Assistant || Jan 2014 &mdash; May 2014 || Eau Claire, WI<br>
 Teaching Assistant || Jan 2013 &mdash; May 2014 || Eau Claire, WI<br>
 Physics Tutor || Jan 2012 &mdash; Dec 2013 || Eau Claire, WI
+
+### Programming Skills
+
+Python, LaTeX, SQL, C++, Bash, LabView, git, HDF5
 
 ## Publications
 
