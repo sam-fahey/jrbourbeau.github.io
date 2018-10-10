@@ -28,7 +28,7 @@ University of Wisconsin &mdash; Eau Claire (2014)<br>
 ## Professional Experience
 
 ### Wisconsin IceCube Particle Astrophysics Center
-Graduate Research Assistant || Jan 2015 &mdash; Present || Madison, WI<br>
+Graduate Research Assistant  ||  Jan 2015 &mdash; Present  ||  Madison, WI<br>
 
 * write software for analysis of neutrino data in follow-up searches of astrophysical transient sources.
 * evaluate systematic errors in data reconstruction, acquisition, and analysis.
@@ -36,12 +36,12 @@ Graduate Research Assistant || Jan 2015 &mdash; Present || Madison, WI<br>
 * read and analyze newly published research; interpret results and present implications on past results, current developments, and interesting future analyses.
 
 ### University of Wisconsin &mdash; Madison
-Teaching Assistant || Sep 2014 &mdash; Dec 2014 || Madison, WI
+Teaching Assistant  ||  Sep 2014 &mdash; Dec 2014  ||  Madison, WI
 
 ### Universtiy of Wisconsin &mdash; Eau Claire
-Electronics Lab Assistant || Jan 2014 &mdash; May 2014 || Eau Claire, WI<br>
-Teaching Assistant || Jan 2013 &mdash; May 2014 || Eau Claire, WI<br>
-Physics Tutor || Jan 2012 &mdash; Dec 2013 || Eau Claire, WI
+Electronics Lab Assistant  ||  Jan 2014 &mdash; May 2014  ||  Eau Claire, WI<br>
+Teaching Assistant  ||  Jan 2013 &mdash; May 2014  ||  Eau Claire, WI<br>
+Physics Tutor  ||  Jan 2012 &mdash; Dec 2013  ||  Eau Claire, WI
 
 ### Programming Skills
 
