@@ -88,7 +88,7 @@ author:
   avatar           : "/assets/images/bio-pic.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Physics PhD candidate."
   location         : "Madison, WI"
-  email            : "sam.j.fahey@gmail.com.com"
+  email            : "sam.j.fahey@gmail.com"
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
   bitbucket        :
