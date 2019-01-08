@@ -11,24 +11,24 @@ toc: false
 toc_label: "R&eacute;sum&eacute;"
 ---
 
-<a href="{{ site.baseurl }}/assets/images/Resume_181002.pdf" class="btn btn--large btn--info"><i class="fas fa-file-alt"></i><span> PDF version </span></a>
+<a href="{{ site.baseurl }}/assets/images/Resume_githubpage.pdf" class="btn btn--large btn--info"><i class="fas fa-file-alt"></i><span> PDF version </span></a>
 
 ## Education
 
-### Ph.D. in Physics (graduating December 2018)
-University of Wisconsin &mdash; Madison<br>
+### Ph.D. in Physics
+University of Wisconsin &mdash; Madison (December 2018)<br>
 
 ### M.S. in Physics
-University of Wisconsin &mdash; Madison (2017)<br>
+University of Wisconsin &mdash; Madison (May 2017)<br>
 
 ### B.S. in Physics (minor in mathematics)<br>
-University of Wisconsin &mdash; Eau Claire (2014)<br>
+University of Wisconsin &mdash; Eau Claire (May 2014)<br>
  *Summa Cum Laude, Departmental Honors*<br>
 
 ## Professional Experience
 
 ### Wisconsin IceCube Particle Astrophysics Center
-Graduate Research Assistant  ||  Jan 2015 &mdash; Present  ||  Madison, WI<br>
+Graduate Research Assistant  ||  Jan 2015 &mdash; Dec 2018  ||  Madison, WI<br>
 
 * write software for analysis of neutrino data in follow-up searches of astrophysical transient sources.
 * evaluate systematic errors in data reconstruction, acquisition, and analysis.
@@ -45,7 +45,7 @@ Physics Tutor  ||  Jan 2012 &mdash; Dec 2013  ||  Eau Claire, WI
 
 ### Programming Skills
 
-Python, LaTeX, SQL, C++, Bash, LabView, git, HDF5
+Python (Scikit-learn, NumPy, SciPy, Matplotlib), LaTeX, SQL, C++, Bash, LabView, git, HDF5
 
 ## Publications
 
