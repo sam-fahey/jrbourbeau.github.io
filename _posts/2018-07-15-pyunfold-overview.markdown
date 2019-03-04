@@ -14,4 +14,4 @@ date: October 5, 2018
 
 # Denver
 
-![denver is windy]()
+![denver is windy](https://github.com/sam-fahey/sam-fahey.github.io/blob/master/_posts/Denver_Wind_Year.png "Windyness")
