@@ -13,19 +13,12 @@ toc_label: "R&eacute;sum&eacute;"
 
 <a href="{{ site.baseurl }}/assets/images/Resume_githubpage.pdf" class="btn btn--large btn--info"><i class="fas fa-file-alt"></i><span> PDF version </span></a>
 
-## Education
-
-### Ph.D. in Physics
-University of Wisconsin &mdash; Madison (December 2018)<br>
-
-### M.S. in Physics
-University of Wisconsin &mdash; Madison (May 2017)<br>
-
-### B.S. in Physics (minor in mathematics)<br>
-University of Wisconsin &mdash; Eau Claire (May 2014)<br>
- *Summa Cum Laude, Departmental Honors*<br>
-
 ## Professional Experience
+
+### 3M
+Senior Research Scientist || Apr 2019 &mdash; present || St. Paul, MN
+
+* sensor fusion research and development
 
 ### Wisconsin IceCube Particle Astrophysics Center
 Graduate Research Assistant  ||  Jan 2015 &mdash; Dec 2018  ||  Madison, WI<br>
@@ -46,6 +39,18 @@ Physics Tutor  ||  Jan 2012 &mdash; Dec 2013  ||  Eau Claire, WI
 ### Programming Skills
 
 Python (Scikit-learn, NumPy, SciPy, Matplotlib), LaTeX, SQL, C++, Bash, LabView, git, HDF5
+
+## Education
+
+### Ph.D. in Physics
+University of Wisconsin &mdash; Madison (December 2018)<br>
+
+### M.S. in Physics
+University of Wisconsin &mdash; Madison (May 2017)<br>
+
+### B.S. in Physics (math minor)<br>
+University of Wisconsin &mdash; Eau Claire (May 2014)<br>
+ *Summa Cum Laude, Departmental Honors*<br>
 
 ## Publications
 
