@@ -18,4 +18,4 @@ date: October 5, 2018
 
 <img src="Denver_Wind_Year.png" width="100" />
 
-<img src="Denver_Wind_Year.png" class="img-responsive" alt=""> </div>
+<img src="Denver_Wind_Year.PNG" class="img-responsive" alt=""> </div>
