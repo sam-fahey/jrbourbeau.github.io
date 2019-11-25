@@ -1,11 +1,14 @@
 ---
-title: "Halo"
-tags:
-  - python
-  - statistics
-toc: true
-toc_label: "Table of contents"
-date: October 5, 2018
+layout: single
+title: Halo
+permalink: /halo/
+author_profile: true
+type: pages
+scope:
+    path: ""
+    type: pages
+toc: false
+toc_label: "halo"
 ---
 
 # Start migrating documentation here
