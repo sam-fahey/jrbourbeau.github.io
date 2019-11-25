@@ -9,6 +9,7 @@ scope:
     type: posts
 toc: true
 toc_label: "post1"
+date: October 5, 2018
 ---
 
 Hello World
