@@ -23,8 +23,14 @@ Wind speed in any direction, showing fraction of time above threshold by hour by
 </figure>
 
 <figure class="half">
-    <a href="Denver_Wind_Year.png"><img src="Denver_Wind_Year.png"></a>
-    <a href="Denver_Wind_Year.png"><img src="Denver_Wind_Year.png"></a>
+    <img src="Denver_Wind_Year.png">
+    <img src="Denver_Wind_Year.png">
+    <figcaption>Caption describing these two images.</figcaption>
+</figure>
+
+<figure class="half">
+    <img src="Denver_Wind_Year.png">
+    <img src="Denver_Wind_Year.png">
     <figcaption>Caption describing these two images.</figcaption>
 </figure>
 
