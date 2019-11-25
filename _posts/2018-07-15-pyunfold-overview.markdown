@@ -17,4 +17,8 @@ date: October 5, 2018
 Wind speed in any direction, showing fraction of time above threshold by hour by month.
 
   <img src="Denver_Wind_Year.png" width="800" />
+ 
+<figure>
+	<img src="Denver_Wind_Year.png" width="800" />
+</figure>
 
