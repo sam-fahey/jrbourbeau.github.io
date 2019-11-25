@@ -17,3 +17,5 @@ date: October 5, 2018
 ![denver is windy](https://github.com/sam-fahey/sam-fahey.github.io/blob/master/_posts/Denver_Wind_Year.png "Windyness")
 
 <img src="Denver_Wind_Year.png" width="100" />
+
+<img src="Denver_Wind_Year.png" class="img-responsive" alt=""> </div>
