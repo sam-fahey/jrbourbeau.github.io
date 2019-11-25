@@ -16,12 +16,12 @@ toc_label: "R&eacute;sum&eacute;"
 ## Professional Experience
 
 ### 3M
-Senior Research Scientist || Apr 2019 &mdash; present || St. Paul, MN
+Senior Research Scientist | Apr 2019 &mdash; present | St. Paul, MN
 
 * sensor fusion research and development
 
 ### Wisconsin IceCube Particle Astrophysics Center
-Graduate Research Assistant  ||  Jan 2015 &mdash; Dec 2018  ||  Madison, WI<br>
+Graduate Research Assistant  |  Jan 2015 &mdash; Dec 2018  |  Madison, WI<br>
 
 * write software for analysis of neutrino data in follow-up searches of astrophysical transient sources.
 * evaluate systematic errors in data reconstruction, acquisition, and analysis.
@@ -29,12 +29,12 @@ Graduate Research Assistant  ||  Jan 2015 &mdash; Dec 2018  ||  Madison, WI<br>
 * read and analyze newly published research; interpret results and present implications on past results, current developments, and interesting future analyses.
 
 ### University of Wisconsin &mdash; Madison
-Teaching Assistant  ||  Sep 2014 &mdash; Dec 2014  ||  Madison, WI
+Teaching Assistant  |  Sep 2014 &mdash; Dec 2014  |  Madison, WI
 
 ### Universtiy of Wisconsin &mdash; Eau Claire
-Electronics Lab Assistant  ||  Jan 2014 &mdash; May 2014  ||  Eau Claire, WI<br>
-Teaching Assistant  ||  Jan 2013 &mdash; May 2014  ||  Eau Claire, WI<br>
-Physics Tutor  ||  Jan 2012 &mdash; Dec 2013  ||  Eau Claire, WI
+Electronics Lab Assistant  |  Jan 2014 &mdash; May 2014  |  Eau Claire, WI<br>
+Teaching Assistant  |  Jan 2013 &mdash; May 2014  |  Eau Claire, WI<br>
+Physics Tutor  |  Jan 2012 &mdash; Dec 2013  |  Eau Claire, WI
 
 ### Programming Skills
 
@@ -53,6 +53,8 @@ University of Wisconsin &mdash; Eau Claire (May 2014)<br>
  *Summa Cum Laude, Departmental Honors*<br>
 
 ## Publications
+
+IceCube Collaboration (2019). *A Search for MeV to TeV Neutrinos from Fast Radio Bursts with IceCube*. <br> The Astrophysical Journal (*pending*). [arXiv](https://arxiv.org/abs/1908.09997).<br>
 
 IceCube Collaboration (2018). *A Search for Neutrino Emission from Fast Radio Bursts with Six Years of IceCube Data*.<br> The Astrophysical Journal. 857 (2018) no.2, 117 [ApJ](http://iopscience.iop.org/article/10.3847/1538-4357/aab4f8/meta). [ArXiv](https://arxiv.org/abs/1712.06277).<br>
 
