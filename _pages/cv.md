@@ -54,6 +54,8 @@ University of Wisconsin &mdash; Eau Claire (May 2014)<br>
 
 ## Publications
 
+PhD Dissertation (<a href="{{ site.baseurl }}/assets/images/samfahey_dissertation.pdf" class="btn btn--large btn--info"><i class="fas fa-file-alt"></i><span>PDF</span></a>): *Searches for Neutrinos from Fast Radio Bursts and Other Astrophysical Transients with IceCube*.<br> University of Wisconsin, Madison. Physics. Defended November 29, 2018.<br>
+
 IceCube Collaboration (2019). *A Search for MeV to TeV Neutrinos from Fast Radio Bursts with IceCube*. <br> The Astrophysical Journal (*pending*). [arXiv](https://arxiv.org/abs/1908.09997).<br>
 
 IceCube Collaboration (2018). *A Search for Neutrino Emission from Fast Radio Bursts with Six Years of IceCube Data*.<br> The Astrophysical Journal. 857 (2018) no.2, 117 [ApJ](http://iopscience.iop.org/article/10.3847/1538-4357/aab4f8/meta). [ArXiv](https://arxiv.org/abs/1712.06277).<br>
