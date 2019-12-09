@@ -30,4 +30,4 @@ For each month, and for each hour GMT in that month, I divide the total duration
 
   <img src="../assets/images/denver_wind.png" width="800" />
  
-The analysis can be performed for relevant wind directions as well. For example, an analysis of headwinds of 30 mph can be conducted by multiplying each wind value by the cosine of the difference between ASOS wind direction and runway direction.
+The analysis can be performed for relevant wind directions as well. For example, an analysis of headwinds of 30 mph can be conducted by multiplying each wind value by the cosine of the difference between ASOS wind direction and runway direction, then assessing whether each headwind component exceeds 30 mph.
